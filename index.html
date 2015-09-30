@@ -1,0 +1,10 @@
+---
+layout: page
+title: Cypher Language Group meeting minutes
+---
+
+<ul class="posts">
+  {% for post in site.posts %}
+  <li><tt>{{ post.date | date_to_string }}</tt> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>

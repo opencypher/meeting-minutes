@@ -1,0 +1,9 @@
+---
+layout: post
+title: Meeting Minutes for CLG meeting 2015-09-30
+author: Tobias
+---
+
+We decided to host meeting minutes on github.
+
+More content to come, this post is essentially just a placeholder.
