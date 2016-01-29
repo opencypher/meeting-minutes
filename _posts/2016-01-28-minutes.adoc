@@ -1,0 +1,25 @@
+---
+layout: post
+title: Meeting Minutes for the CLG 2015-12-10
+author: Petra Selmer
+---
+
+== CLG
+
+* Andrés Taylor *[AT]* andres.taylor@neotechnology.com
+* Stefan Plantikow *[SP]* stefan.plantikow@neotechnology.com
+* Petra Selmer *[PS]* petra.selmer@neotechnology.com
+* Nigel Small *[NS]* nigel.small@neotechnology.com
+
+== Absent
+
+* Tobias Lindaaker *[TL]* tobias.lindaaker@neotechnology.com
+
+== Items
+
+* Michael Hunger is presenting link:http://www.opencypher.org/[openCypher] at the link:https://fosdem.org/2016/schedule/event/graph_processing_opencypher/[Graph Processing developer room at FOSDEM] on Saturday 30th January
+* We are aiming to have a first draft of the EBNF available for download shortly
+* CIP progress:
+** The link:https://github.com/opencypher/openCypher/blob/master/cip/CIP2015-10-27-State-visibility-between-clauses.adoc[State Visibility CIP] has been merged
+** There is a PR for the link:https://github.com/opencypher/openCypher/pull/16[Procedures CIP]
+** There is a PR for the link:https://github.com/opencypher/openCypher/pull/17[Mandatory Match CIP]
