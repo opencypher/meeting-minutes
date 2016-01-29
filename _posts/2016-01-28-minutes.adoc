@@ -4,22 +4,39 @@ title: Meeting Minutes for the CLG 2016-01-28
 author: Petra Selmer
 ---
 
-== CLG
+<h2>CLG</h2>
+<ul class="posts">
+<li>Andr&eacute;s Taylor <b>[AT]</b> <a href="mailto:andres.taylor@neotechnology.com">andres.taylor@neotechnology.com</a></li>
+<li>Stefan Plantikow <b>[SP]</b> <a href="mailto:stefan.plantikow@neotechnology.com">stefan.plantikow@neotechnology.com</a></li>
+<li>Petra Selmer <b>[PS]</b> <a href="mailto:petra.selmer@neotechnology.com">petra.selmer@neotechnology.com</a></li>
+<li>Nigel Small <b>[NS]</b> <a href="mailto:nigel.small@neotechnology.com">nigel.small@neotechnology.com</a></li>
+</ul>
 
-* Andrés Taylor *[AT]* andres.taylor@neotechnology.com
-* Stefan Plantikow *[SP]* stefan.plantikow@neotechnology.com
-* Petra Selmer *[PS]* petra.selmer@neotechnology.com
-* Nigel Small *[NS]* nigel.small@neotechnology.com
+<h3>Absent</h3>
+<ul class="posts">
+  <li>Tobias Lindaaker <b>[TL]</b> <a href="mailto:tobias.lindaaker@neotechnology.com">tobias.lindaaker@neotechnology.com</a></li>
+</ul>
 
-== Absent
-
-* Tobias Lindaaker *[TL]* tobias.lindaaker@neotechnology.com
-
-== Items
-
-* Michael Hunger is presenting link:http://www.opencypher.org/[openCypher] at the link:https://fosdem.org/2016/schedule/event/graph_processing_opencypher/[Graph Processing developer room at FOSDEM] on Saturday 30th January
-* We are aiming to have a first draft of the EBNF available for download shortly
-* CIP progress:
-** The link:https://github.com/opencypher/openCypher/blob/master/cip/CIP2015-10-27-State-visibility-between-clauses.adoc[State Visibility CIP] has been merged
-** There is a PR for the link:https://github.com/opencypher/openCypher/pull/16[Procedures CIP]
-** There is a PR for the link:https://github.com/opencypher/openCypher/pull/17[Mandatory Match CIP]
+<h2>Items</h2>
+<ul class="posts">
+  <li>
+    Michael Hunger is presenting <a href="http://www.opencypher.org/" target="_blank">openCypher</a> at the <a href="https://fosdem.org/2016/schedule/event/graph_processing_opencypher/" target="_blank">Graph Processing developer room at FOSDEM</a> on Saturday 30th January
+  </li>
+  <li>
+    We are aiming to have a first draft of the EBNF available for download shortly
+  </li>
+  <li>
+    CIP progress:
+    <ul>
+      <li>
+        The <a href="https://github.com/opencypher/openCypher/blob/master/cip/CIP2015-10-27-State-visibility-between-clauses.adoc" target="_blank">State Visibility CIP</a> has been merged.
+      </li>
+      <li>
+        There is a PR for the <a href="https://github.com/opencypher/openCypher/pull/16" target="_blank">Procedures CIP</a>
+      </li>
+      <li>
+        There is a PR for the <a href="https://github.com/opencypher/openCypher/pull/17" target="_blank">Mandatory Match CIP</a>
+      </li>
+    </ul>
+  </li>
+</ul>
