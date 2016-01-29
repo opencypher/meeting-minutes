@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meeting Minutes for the CLG 2015-12-10
+title: Meeting Minutes for the CLG 2016-01-28
 author: Petra Selmer
 ---
 
