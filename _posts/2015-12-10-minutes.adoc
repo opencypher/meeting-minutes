@@ -1,24 +1,40 @@
----
-layout: post
-title: Meeting Minutes for the CLG 2015-12-10
-author: Petra Selmer
----
+<h2>CLG</h2>
+<ul class="posts">
+  <li>Andr&eacute;s Taylor <b>[AT]</b> <a href="mailto:andres.taylor@neotechnology.com">andres.taylor@neotechnology.com</a></li>
+  <li>Tobias Lindaaker <b>[TL]</b> <a href="mailto:tobias.lindaaker@neotechnology.com">tobias.lindaaker@neotechnology.com</a></li>
+  <li>Stefan Plantikow <b>[SP]</b> <a href="mailto:stefan.plantikow@neotechnology.com">stefan.plantikow@neotechnology.com</a></li>
+  <li>Petra Selmer <b>[PS]</b> <a href="mailto:petra.selmer@neotechnology.com">petra.selmer@neotechnology.com</a></li>
+  <li>Nigel Small <b>[NS]</b> <a href="mailto:nigel.small@neotechnology.com">nigel.small@neotechnology.com</a></li>
+</ul>
 
-== CLG
-
-* Andrés Taylor *[AT]* andres.taylor@neotechnology.com
-* Tobias Lindaaker *[TL]* tobias.lindaaker@neotechnology.com
-* Stefan Plantikow *[SP]* stefan.plantikow@neotechnology.com
-* Petra Selmer *[PS]* petra.selmer@neotechnology.com
-* Nigel Small *[NS]* nigel.small@neotechnology.com
-
-== Items
-
-* The link:https://github.com/opencypher/openCypher/pull/10[EXISTS CIP]: *AT* is to make some edits in light of more comments, after which it will be accepted and merged.
-* The link:https://github.com/opencypher/openCypher/pull/11[State Visibility CIP]: *AT* is to make some changes, after which it will be accepted and merged.
-* The link:https://github.com/opencypher/openCypher/pull/9[CREATE CIP] is still nominally accepted until further decisions have been made regarding the ideas in the link:https://docs.google.com/document/d/1wzu6M5FbT8sjRq1qgdTD4L6_KmDsFC3j7LtmrJiZt30/edit?usp=sharing[Enhanced Pattern Semantics] document. Very good feedback has been given, and the CLG will need to have further discussions.
-* openCypher:
-** *TL* is now working full time on this
-** Some preliminary discussions were had regard the versioning of both the specification and the reference implementation and how to tie the two together:
-*** The specification version would comprise a number, starting with 1. Errata would then be represented as minor versions, using alphabetic characters. For example, the first version will be "1". Then, after the first batch of errata has been resolved, the version will be "1.A".
-*** The reference implementation's major version will be the same as the specification’s major version and the minor version will comprise the date, in CCYYMMDD format. Additionally, the full specification version (major and minor) will always be provided so that it is clear precisely to which version the implementation refers (especially in the case of errata in the specification). For example, assume the version of the specification released on the 1st of March 2016 is "1.B", and that the reference implementation released on the 3rd of April 2016 contains changes therefrom. The implementation version will be "1.20160403" and it will mention that it is using version "1.B" of the specification. However, if we assume that the reference implementation released, say, on the 31st of March 2016 still only contains changes from version "1.A" of the specification (even though version “1.B” has already been released), version "1.20160331" of the implementation will refer to specification version "1.A".
+<h2>Items</h2>
+<ul class="posts">
+  <li>
+    The <a href="https://github.com/opencypher/openCypher/pull/10" target="_blank">EXISTS CIP</a>: <b>AT</b> is to make some edits in light of more comments, after which it will be accepted and merged.
+  </li>
+  <li>
+    The <a href="https://github.com/opencypher/openCypher/pull/11" target="_blank">State Visibility CIP</a>: <b>AT</b> is to make some changes, after which it will be accepted and merged.
+  </li>
+  <li>
+    The <a href="https://github.com/opencypher/openCypher/pull/9" target="_blank">CREATE CIP</a> is still nominally accepted until further decisions have been made regarding the ideas in the <a href="https://docs.google.com/document/d/1wzu6M5FbT8sjRq1qgdTD4L6_KmDsFC3j7LtmrJiZt30/edit?usp=sharing" target="_blank">Enhanced Pattern Semantics</a> document. Very good feedback has been given, and the CLG will need to have further discussions.
+  </li>
+  <li>
+    openCypher:
+    <ul>
+      <li>
+        <b>TL</b> is now working full time on this.
+      </li>
+      <li>
+        Some preliminary discussions were had regard the versioning of both the specification and the reference implementation and how to tie the two together:
+        <ul>
+          <li>
+            The specification version would comprise a number, starting with 1. Errata would then be represented as minor versions, using alphabetic characters. For example, the first version will be "1". Then, after the first batch of errata has been resolved, the version will be "1.A".
+          </li>
+          <li>
+            The reference implementation's major version will be the same as the specification's major version and the minor version will comprise the date, in CCYYMMDD format. Additionally, the full specification version (major and minor) will always be provided so that it is clear precisely to which version the implementation refers (especially in the case of errata in the specification). For example, assume the version of the specification released on the 1st of March 2016 is "1.B", and that the reference implementation released on the 3rd of April 2016 contains changes therefrom. The implementation version will be "1.20160403" and it will mention that it is using version "1.B" of the specification. However, if we assume that the reference implementation released, say, on the 31st of March 2016 still only contains changes from version "1.A" of the specification (even though version "1.B" has already been released), version "1.20160331" of the implementation will refer to specification version "1.A".
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
