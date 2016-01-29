@@ -22,7 +22,7 @@ h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
-  color: #68BDF6;
+  color: #0b74ba;
 }
 h3,
 h4,
@@ -31,7 +31,7 @@ h6 {
   color: #0b74ba;
 }
 a {
-  color: #68BDF6;
+  color: #0b74ba;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
